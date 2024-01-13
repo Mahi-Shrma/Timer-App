@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer app</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <h1>Multiple Timer App</h1>
+</header>
+
+<main>
+    <div class="container" id="card">
+        <div id="cont1">Hours :
+            <input id="hour" type="number" min="0" max="24" placeholder="hh">
+        Minutes :  <input id="minute" type="number" min="0" max="60" placeholder="mm">
+        Seconds : <input id="seconds" type="number" min="0" max="60" placeholder="ss">
+        <button class="button" id="new-time">Set New Timer</button>
+    </div>
+</main>
+    <div id="currTime">
+        <h5>Current Timers</h5>
+        </div>
+        
+        <div id="active-timers-container">
+            <span id="no-timers-display-msg">You have no timers currently</span>
+        </div>
+    </div>
+ <script src="script.js"></script>
+
+</body>
+</html>
